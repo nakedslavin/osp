@@ -1,6 +1,5 @@
 { 
-    "title": "Эхо Москвы: Код Доступа",
-    "link": "https://echo.msk.ru/programs/code",
+    "title": "$.conthead h1",
     "host": "echo.msk.ru",
     "emit": "$.prevcontent",
     "description": "$.aboutbroadcast .text",
