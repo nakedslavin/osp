@@ -3,7 +3,7 @@
         <title>{{title}}</title>
         <description><![CDATA[{{description}}]]></description>
         <copyright>{{copyright}}</copyright>
-        <language>{{ru}}</language>
+        <language>{{language}}</language>
         <pubDate>{{pubDate}}</pubDate>
         <link>{{link}}</link>
         <image>
