@@ -15,7 +15,7 @@
         "title": "$.txt .title",
         "guid": "$.txt a|href",
         "link": "$.txt a|href",
-        "description": "$.autor .about .post",
+        "description": "$.txt a",
         "pubDate": null,
         "enclose_url": "$a[href$=mp3]|href",
         "enclose_type": "audio/mpeg",
