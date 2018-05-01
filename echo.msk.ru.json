@@ -5,7 +5,7 @@
     "description": "$.aboutbroadcast .text",
     "copyright": "Эхо Москвы",
     "language": "ru",
-    "pubDate": "",
+    "pubDate": null,
     "image": "https://echo.msk.ru/files/2909256.jpg",
     "keywords": "news,politics",
     "author": "Эхо Москвы",
