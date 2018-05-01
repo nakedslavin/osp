@@ -1,0 +1,28 @@
+{ 
+    title: 'Эхо Москвы: Код Доступа'
+    link: 'https://echo.msk.ru/programs/code',
+    host: 'echo.msk.ru',
+    emit: '$.prevcontent',
+    description: '$.aboutbroadcast .text',
+    copyright: 'Эхо Москвы',
+    language: 'ru',
+    pubDate: '',
+    image: 'https://echo.msk.ru/files/2909256.jpg',
+    keywords: 'news,politics',
+    author: 'Эхо Москвы',
+    category: 'News & Politics',
+
+    map: {
+        title: '$.txt .title',
+        guid: '$.txt a|href',
+        link: '$.txt a|href',
+        description: '$.autor .about .post',
+        pubDate: null,
+        enclose_url: '$a[href$=mp3]|href',
+        enclose_type: 'audio/mpeg',
+        image: '$.txt img|src',
+        duration: null,
+        keywords: '$.tagmenu .links',
+        explicit: 'no'
+    }
+}
