@@ -1,7 +1,7 @@
 { 
     "title": "$.conthead h1",
     "host": "echo.msk.ru",
-    "emit": "$.prevcontent",
+    "emit": "$.mainpreview .prevcontent",
     "description": "$.aboutbroadcast .text",
     "copyright": "Эхо Москвы",
     "language": "ru",
@@ -16,7 +16,7 @@
         "guid": "$.txt a|href",
         "link": "$.txt a|href",
         "description": "$.txt a",
-        "pubDate": null,
+        "pubDate": "$.datetime|title",
         "encloseUrl": "$a[href$=mp3]|href",
         "encloseType": "audio/mpeg",
         "guestName":"$.about .name",
