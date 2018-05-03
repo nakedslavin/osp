@@ -30,7 +30,7 @@
             <content:encoded><![CDATA[{{itemDescription}}]]></content:encoded>
             <pubDate>{{itemPubDate}}</pubDate>
             <author>{{itemAuthor}}</author>
-            <enclosure url="{{itemEncloseUrl}}" type="audio/mpeg"/>
+            <enclosure url="<![CDATA[{{itemEncloseUrl}}]]" type="audio/mpeg"/>
             <itunes:author>{{itemAuthor}}</itunes:author>
             <itunes:image href="{{imageUrl}}"/>
             <itunes:duration>{{itemDuration}}</itunes:duration>
