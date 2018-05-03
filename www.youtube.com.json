@@ -19,7 +19,7 @@
         "pubDate": "$#metadata-line span",
         "encloseUrl": "$a#video-title|href",
         "encloseType": "audio/mpeg",
-        "guestName":"null,
+        "guestName":null,
         "guestDescription":null,
         "image": "$img#img|src",
         "duration": null,
