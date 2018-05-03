@@ -1,0 +1,29 @@
+{ 
+    "title": "$#channel-title",
+    "host": "youtube.com",
+    "emit": "$div#items",
+    "description": null,
+    "copyright": "Эхо Москвы",
+    "language": "ru",
+    "pubDate": null,
+    "image": "#avatar img|src",
+    "keywords": "news,politics",
+    "author": "Youtube",
+    "category": "News & Politics",
+
+    "map": {
+        "title": "$a#video-title|title",
+        "guid": "$a#video-title|href",
+        "link": null,
+        "description": null,
+        "pubDate": "$#metadata-line span",
+        "encloseUrl": "$a#video-title|href",
+        "encloseType": "audio/mpeg",
+        "guestName":"null,
+        "guestDescription":null,
+        "image": "$img#img|src",
+        "duration": null,
+        "keywords": null,
+        "explicit": "no"
+    }
+}
