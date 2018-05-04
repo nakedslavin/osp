@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>{{title}}</title>
+        <title><![CDATA[{{title}}]]></title>
         <description><![CDATA[{{description}}]]></description>
         <copyright>{{copyright}}</copyright>
         <language>{{language}}</language>
@@ -8,7 +8,7 @@
         <link>{{link}}</link>
         <image>
             <url>{{imageUrl}}</url>
-            <title>{{imageTitle}}</title>
+            <title><![CDATA[{{imageTitle}}]]></title>
             <link>{{imageLink}}</link>
         </image>
         <itunes:author>{{author}}</itunes:author>
@@ -23,7 +23,7 @@
         </itunes:owner>
         <itunes:category text="{{category}}"/>
         <item>
-            <title>{{itemTitle}}</title>
+            <title><![CDATA[{{itemTitle}}]]></title>
             <guid isPermaLink="false">{{itemGuid}}</guid>
             <link>{{itemLink}}</link>
             <description><![CDATA[{{itemDescription}}]]></description>
